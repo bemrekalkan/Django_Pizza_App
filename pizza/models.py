@@ -3,9 +3,9 @@ from django.db import models
 # Create your models here.
 class Size(models.Model):
     SIZE = [
-        ('Small', 'Small'),
-        ('Medium', 'Medium'),
-        ('Large', 'Large'),
+        ('1', 'Small'),
+        ('2', 'Medium'),
+        ('3', 'Large'),
     ]
     title = models.CharField('Size', max_length=10, choices=SIZE)
 
